@@ -9,6 +9,13 @@
 - 安装教程参考：
     - [鸿蒙系统（HarmonyOS2.0）开发环境搭建图文教程（DevEco Studio IDE 安装及设置）](https://blog.csdn.net/u011318077/article/details/108578354)
     
+- 代码运行问题：
+    - DevEco Studio IDE并不会实时刷新代码，因此修改代码点击后不会看到修改的结果
+    - 预览模式或者调试模式刷新代码：
+        - 右侧上部有刷新按钮(调试模式无)；
+        - 右侧上部js重新实时编译按钮(restart realtime compiling) 
+        - 底部左侧，run，运行以下代码
+    
 # 2 创建项目
 - 打开软件，创建运动手表项目，查看图片![](01_Huxiv1/图片/001_创建运动手表项目.png)
 - 项目创建后，会自动下载 gradle 组件，类似一个项目管理工具
