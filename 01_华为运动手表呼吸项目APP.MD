@@ -96,4 +96,7 @@
 - 具体查看代码文件
 - 查看图片![](01_Huxiv1/图片/014_定时器显示倒计时和交替显示吸气呼气的进度和旋转的图片.png)
 
-# 13 
+# 13 增加一个倒计时页面，显示倒计时
+- 右键pages, 新建一个JS page，命名为daojishi
+- 编写hml，css文件，index.js跳转指定的uri由xunlian替换为daojishi
+- js中添加
